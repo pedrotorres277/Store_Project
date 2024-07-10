@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    list-style: none;
+}
+body{
+    background: url(img/fundo\ \(2\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Playfair Display", serif;
+    font-weight: bold;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 20px;
+    color: white;
+    text-shadow: 3px 3px 3px black;
+}
+nav{
+    display: flex;
+    gap: 20px;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+}
+div.redesSociais{
+    display: flex;
+    gap: 30px;
+}
+.icons{
+    box-shadow: 3px 3px 3px black;
+    border-radius: 100%;
+}
+img.logoImg{
+width: 120px;
+height: 120px;
+border-radius: 100%;
+border: 1px solid black;
+box-shadow: 1px 1px 3px black;
+}
