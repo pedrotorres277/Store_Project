@@ -9,6 +9,13 @@
       href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css"
+    />
+
+    <link rel="shortcut icon" href="assets/hamb-1.png" type="image/x-icon" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -47,7 +54,7 @@
         <div class="flex gap-2">
           <img
             src="./assets/hamb-1.png"
-            alt="hamburguer smash"
+            alt="Hamburguer Smash"
             class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300"
           />
           <div>
@@ -150,62 +157,14 @@
             </div>
           </div>
         </div>
-        <div class="flex gap-2">
-          <img
-            src="./assets/hamb-1.png"
-            alt="hamburguer smash"
-            class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300"
-          />
-          <div>
-            <p class="font-bold">Hamburger Smash</p>
-            <p class="text-sm">
-              Pão levinho de fermentação natural da trigou, burguer 160g, queijo
-              prato e maionese da casa.
-            </p>
-            <div class="flex items-center gap-2 justify-between mt-3">
-              <p class="font-bold text-lg">R$ 18.90</p>
-              <button
-                class="bg-gray-900 px-5 rounded add-to-cart-btn"
-                data-name="Hamburguer Smash"
-                data-price="18.90"
-              >
-                <span class="material-symbols-outlined text-lg text-white">
-                  shopping_cart
-                </span>
-              </button>
-            </div>
-          </div>
-        </div>
-        <div class="flex gap-2">
-          <img
-            src="./assets/hamb-1.png"
-            alt="hamburguer smash"
-            class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300"
-          />
-          <div>
-            <p class="font-bold">Hamburger Smash</p>
-            <p class="text-sm">
-              Pão levinho de fermentação natural da trigou, burguer 160g, queijo
-              prato e maionese da casa.
-            </p>
-            <div class="flex items-center gap-2 justify-between mt-3">
-              <p class="font-bold text-lg">R$ 18.90</p>
-              <button
-                class="bg-gray-900 px-5 rounded add-to-cart-btn"
-                data-name="Hamburguer Smash"
-                data-price="18.90"
-              >
-                <span class="material-symbols-outlined text-lg text-white">
-                  shopping_cart
-                </span>
-              </button>
-            </div>
-          </div>
+        
         </div>
       </main>
 
       <div class="mx-auto max-w-7x1 px-2 my-2">
-        <h2 class="text-2xl md:text-3xl font-bold text-center mt-9 mb-6">Bebidas</h2>
+        <h2 class="text-2xl md:text-3xl font-bold text-center mt-9 mb-6">
+          Bebidas
+        </h2>
       </div>
       <!-- BEBIDAS -->
       <div
@@ -269,9 +228,9 @@
       <div class="bg-white p-5 rounded-md min-w-[90%] md:min-w-[600px]">
         <h2 class="text-center font-bold text-2xl mb-2">Meu carrinho</h2>
 
-        <div class="flex justify-between mb-2 flex-col" id="card-items"></div>
+        <div class="flex justify-between mb-2 flex-col" id="cart-items"></div>
 
-        <p class="font-bold">Total <span id="card-total">0.00</span></p>
+        <p class="font-bold">Total <span id="cart-total">0.00</span></p>
 
         <p class="font-bold mt-4">Endereço de Entrega:</p>
         <input
@@ -310,6 +269,10 @@
       </button>
     </footer>
 
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/toastify-js"
+    ></script>
     <script src="script.js"></script>
   </body>
 </html>
