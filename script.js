@@ -154,7 +154,7 @@ checkoutBtn.addEventListener("click", function () {
     .join("");
 
   const message = encodeURIComponent(cartItems);
-  const phone = "11956395434";
+  const phone = "+55(11)95639-5434";
   window.open(
     `https://wa.me/${phone}?text=${message} Endereço: ${addressInput.value}`,
     "_blank"
